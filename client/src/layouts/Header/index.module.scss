@@ -1,0 +1,55 @@
+header{
+    font-family: "Poppins", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ECFDFF;
+    .contain{
+        width: 100px;
+        width: 65%;
+        padding: 30px 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        nav{
+            ul{
+                display: flex;
+                gap: 40px;
+                li{
+                    font-size: 1.3rem;
+                }
+            }
+        }
+        .icons{
+            display: flex;
+            gap: 20px;
+            .search{
+                color: rgb(0, 174, 255);
+                font-size: 1.4rem;
+                cursor: pointer;
+                transition: 0.4s;
+                &:hover{
+                    transform: scale(1.2);
+                }
+            }
+            .wishlist{
+                color: red;
+                font-size: 1.4rem;
+                cursor: pointer;
+                transition: 0.4s;
+                &:hover{
+                    transform: scale(1.2);
+                }
+            }
+            .basket{
+                color: orange;
+                font-size: 1.4rem;
+                cursor: pointer;
+                transition: 0.4s;
+                &:hover{
+                    transform: scale(1.2);
+                }
+            }
+        }
+    }
+}

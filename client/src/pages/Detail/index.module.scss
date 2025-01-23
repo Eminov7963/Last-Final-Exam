@@ -1,0 +1,47 @@
+.Det{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    .card{
+            background-color: rgb(240, 240, 240);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 15px;
+            width: 300px;
+            overflow: hidden;
+            img{
+                width: 80% ;
+                background-color: #FFFCF1;
+                transition: 0.4s;
+                &:hover{
+                    transform: scale(1.09);
+                }
+            }
+            .prices{
+                display: flex;
+                gap: 10px;
+                font-size: 1.4rem;
+                color: rgb(219, 181, 13);
+                .oldprice{
+                    text-decoration: line-through;
+                }
+            }
+            button{
+                background-color: rgb(0, 162, 255);
+                padding: 10px 20px;
+                border: none;
+                transition: 0.4s;
+                a{
+                    color: white;
+                }
+                &:hover{
+                    background-color: rgb(184, 179, 179);
+                }
+            }
+            
+        
+    }
+}
